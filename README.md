@@ -1,8 +1,6 @@
 # Metro-Problem- 
 
-Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network :fr: .
-
-:station: --> :train: --> :station: 
+Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network :station: --> :train: --> :station: 
 
 ## Getting Started & Prerequisites 
 
@@ -27,7 +25,7 @@ Type the following command to display the version number and location of the com
            
 ## Running 
 
-* Using of compilerflags :flag: :
+* Using of compilerflags  :checkered_flag: :
 
       -Wall -Wextra -Werror -pedantic -pedantic -errors -O3
     
@@ -44,11 +42,15 @@ of g++ to garanteeC++ norms in the code implementation, optimizing compiling.
 
 **Use of the csv files as database :**
 
-In order to execute the code , two csv files are provided as database : 
-       **s.csv : contains all the stations of paris subway**
-       ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/stations.jpg)
-       **c.csv : contains all the connections between the subway stations ( transfer time in seconds )**
-       ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/connections.jpg)
+In order to execute the code , two csv files are provided as database :
+
+**s.csv : contains all the stations of paris subway** :
+       
+![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/stations.jpg)
+       
+**c.csv : contains all the connections between the subway stations ( transfer time in seconds )**
+       
+![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/connections.jpg)
 
 
 **Use the makefile to compile the cpp files :**
@@ -62,11 +64,11 @@ You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/bl
 
 **Execute the program :**
 
-There are two ways to excute the Network program : 
+There are two ways to excute the Network program  : 
 
 **1/ Using Stations Ids :** 
 
-You can find the Ids of the stations in : **s.csv** file
+You can find the :id: of the stations in : **s.csv** file 
 
         ./Network s.csv c.csv Start_id End_id        
 **Example :** 
@@ -78,7 +80,7 @@ You can find the Ids of the stations in : **s.csv** file
 
 **2/ Using Stations Names :**
 
-Note : the code is resistant to spelling errors ( Using the levensthein Distance - Check the code -)
+Note : the code is resistant to spelling errors :warning: ( Using the levensthein Distance - Check the code -)
 
 
         ./Network s.csv c.csv Start_name End_name
