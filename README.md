@@ -24,6 +24,7 @@ Type the following command to display the version number and location of the com
            $ gcc --version
            
 ## Running & tests :
+
 **Use of the csv files as database :**
 
 In order to execute the code , two csv files are provided as database : 
@@ -31,17 +32,21 @@ In order to execute the code , two csv files are provided as database :
        ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/stations.jpg)
        **c.csv : contains all the connections between the subway stations ( transfer time in seconds )**
        ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/connections.jpg)
-     
+
+
 **Use the makefile to compile the cpp files :**
 
 Example :
 
 ![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile.jpg)
 
+
 You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile) 
 
 **Execute the program :**
+
 There are two ways to excute the Network program : 
+
 **1/ Using Stations Ids :** 
 
 You can find the Ids of the stations in : **s.csv** file
@@ -50,7 +55,7 @@ You can find the Ids of the stations in : **s.csv** file
 **Example :** 
 
          ./Network s.csv c.csv 1722 2062
-**output :**
+**Output :**
 
 ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/SaintLazare_Bastille.jpg)
 
