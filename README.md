@@ -2,7 +2,7 @@
 
  Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network.
 
-## Getting Starte & Prerequisites 
+## Getting Started & Prerequisites 
 
 **Step #1: Install C/C++ compiler and related tools**
 
@@ -22,6 +22,12 @@ Type the following command to display the version number and location of the com
            $ whereis gcc
            $ which gcc
            $ gcc --version
+## Running & tests :
+
+**Use the makefile to compile the cpp files : **
+Example : 
+
+![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile.jpg)
 
 ## Authors
 
