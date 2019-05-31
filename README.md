@@ -23,11 +23,29 @@ Type the following command to display the version number and location of the com
            $ which gcc
            $ gcc --version
 ## Running & tests :
+**use of the csv files as database :**
 
-**Use the makefile to compile the cpp files : **
-Example : 
+In order to execute the code , two csv files are provided as database : 
+       **s.csv : contains all the stations of paris subway**
+       ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/stations.jpg)
+       **c.csv : contains all the connections between the subway stations ( transfer time in seconds )**
+       ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/connections.jpg)
+     
+**Use the makefile to compile the cpp files :**
+
+Example :
 
 ![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile.jpg)
+
+You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile) 
+
+**Execute the program :**
+You can find the Ids of the stations in : **s.csv** file
+
+        ./Network s.csv c.csv Start_id End_id
+        
+**Example :** 
+
 
 ## Authors
 
