@@ -31,7 +31,7 @@ Type the following command to display the version number and location of the com
     
 of g++ to garanteeC++ norms in the code implementation, optimizing compiling.
 
-* Using C++ 11 by adding the compilerflag : 
+* Using C++ 11 by adding the compilerflag :checkered_flag: : 
 
       std=c++11 
       
@@ -42,7 +42,7 @@ of g++ to garanteeC++ norms in the code implementation, optimizing compiling.
 
 **Use of the csv files as database :**
 
-In order to execute the code , two csv files are provided as database :
+In order to execute the code , two csv files  :page_facing_up: are provided as database :
 
 **s.csv : contains all the stations of paris subway** :
        
@@ -60,7 +60,7 @@ Example :
 ![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile.jpg)
 
 
-You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile) 
+You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile)  :ballot_box_with_check:
 
 **Execute the program :**
 
@@ -79,6 +79,8 @@ You can find the :id: of the stations in : **s.csv** file
 ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/SaintLazare_Bastille.jpg)
 
 **2/ Using Stations Names :**
+
+You can find the names :abcd: of stations in : **s.csv** file
 
 Note : the code is resistant to spelling errors :warning: ( Using the levensthein Distance - Check the code -)
 
