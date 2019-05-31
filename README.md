@@ -76,7 +76,8 @@ You can find the Ids of the stations in : **s.csv** file
 
 **2/ Using Stations Names :**
 
-Note : the code is resistant to spelling errors
+Note : the code is resistant to spelling errors ( Using the levensthein Distance - Check the code -)
+
 
         ./Network s.csv c.csv Start_name End_name
         
@@ -88,10 +89,6 @@ Note : the code is resistant to spelling errors
 
 ![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/BastilleJussieu.jpg)
 
-## Features 
-
-* The use of STL ( Standard Template Library ) 
-* 
 ## Authors
 
 * **Djahnine Aissam**  - [Profile](https://github.com/AissamDjahnine)
