@@ -82,7 +82,7 @@ You can find the :id: of the stations in : **s.csv** file
 
 You can find the names :abcd: of stations in : **s.csv** file
 
-Note : the code is resistant to spelling errors :warning: ( Using the levensthein Distance - Check the code -)
+Note : the code is resistant to spelling errors :warning: ( Using the levenshtein Distance - Check the code -)
 
 
         ./Network s.csv c.csv Start_name End_name
@@ -101,6 +101,6 @@ Note : the code is resistant to spelling errors :warning: ( Using the levensthei
 
 ## Acknowledgments
 
-* Part of this job was supported by : Vincent Fraillon-maison
+* Part of this job was supported by : Vincent Fraillon-maison  :thumbsup:
 
 
