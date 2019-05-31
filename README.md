@@ -41,6 +41,8 @@ Example :
 You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile) 
 
 **Execute the program :**
+There are two ways to excute the Network program : 
+**1/ Using Stations Ids :** 
 
 You can find the Ids of the stations in : **s.csv** file
 
@@ -48,9 +50,23 @@ You can find the Ids of the stations in : **s.csv** file
 **Example :** 
 
          ./Network s.csv c.csv 1722 2062
-**output : **
+**output :**
+
 ![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/SaintLazare_Bastille.jpg)
 
+**2/ Using Stations Names :**
+
+Note : the code is resistant to spelling errors
+
+        ./Network s.csv c.csv Start_name End_name
+        
+**Example :**
+
+        ./Network s.csv c.csv Bastille Jussieu        
+
+**Output :**
+
+![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/BastilleJussieu.jpg)
 
 
 ## Authors
