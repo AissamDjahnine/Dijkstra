@@ -23,7 +23,22 @@ Type the following command to display the version number and location of the com
            $ which gcc
            $ gcc --version
            
-## Running & tests :
+## Running 
+
+* Using of compilerflags :
+
+      -Wall -Wextra -Werror -pedantic -pedantic -errors -O3
+    
+of g++ to garanteeC++ norms in the code implementation, optimizing compiling.
+
+* Using C++ 11 by adding the compilerflag : 
+
+      std=c++11 
+      
+* Dynamic memory using STL containers
+
+
+## Execution & tests
 
 **Use of the csv files as database :**
 
@@ -73,7 +88,10 @@ Note : the code is resistant to spelling errors
 
 ![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/BastilleJussieu.jpg)
 
+## Features 
 
+* The use of STL ( Standard Template Library ) 
+* 
 ## Authors
 
 * **Djahnine Aissam**  - [Profile](https://github.com/AissamDjahnine)
