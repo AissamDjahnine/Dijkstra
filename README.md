@@ -1,6 +1,8 @@
-# Metro-Problem-
+# Metro-Problem- 
 
- Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network.
+Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network :fr: .
+
+:station: --> :train: --> :station: 
 
 ## Getting Started & Prerequisites 
 
@@ -25,7 +27,7 @@ Type the following command to display the version number and location of the com
            
 ## Running 
 
-* Using of compilerflags :
+* Using of compilerflags :flag: :
 
       -Wall -Wextra -Werror -pedantic -pedantic -errors -O3
     
