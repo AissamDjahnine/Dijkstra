@@ -22,8 +22,9 @@ Type the following command to display the version number and location of the com
            $ whereis gcc
            $ which gcc
            $ gcc --version
+           
 ## Running & tests :
-**use of the csv files as database :**
+**Use of the csv files as database :**
 
 In order to execute the code , two csv files are provided as database : 
        **s.csv : contains all the stations of paris subway**
@@ -40,11 +41,16 @@ Example :
 You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile) 
 
 **Execute the program :**
+
 You can find the Ids of the stations in : **s.csv** file
 
-        ./Network s.csv c.csv Start_id End_id
-        
+        ./Network s.csv c.csv Start_id End_id        
 **Example :** 
+
+         ./Network s.csv c.csv 1722 2062
+**output : **
+![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/SaintLazare_Bastille.jpg)
+
 
 
 ## Authors
