@@ -46,18 +46,18 @@ In order to execute the code , two csv files  :page_facing_up: are provided as d
 
 **s.csv : contains all the stations of paris subway** :
        
-![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/stations.jpg)
+![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/files./stations.jpg)
        
 **c.csv : contains all the connections between the subway stations ( transfer time in seconds )**
        
-![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/connections.jpg)
+![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/files./connections.jpg)
 
 
 **Use the makefile to compile the cpp files :**
 
 Example :
 
-![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile.jpg)
+![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/files./makefile.jpg)
 
 
 You can check the [makefile](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/makefile)  :ballot_box_with_check:
@@ -76,7 +76,7 @@ You can find the :id: of the stations in : **s.csv** file
          ./Network s.csv c.csv 1722 2062
 **Output :**
 
-![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/SaintLazare_Bastille.jpg)
+![alt text ](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/files./SaintLazare_Bastille.jpg)
 
 **2/ Using Stations Names :**
 
@@ -93,7 +93,7 @@ Note : the code is resistant to spelling errors :warning: ( Using the levenshtei
 
 **Output :**
 
-![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/BastilleJussieu.jpg)
+![alt text](https://github.com/AissamDjahnine/Metro-Problem-/blob/master/files./BastilleJussieu.jpg)
 
 ## Authors
 
