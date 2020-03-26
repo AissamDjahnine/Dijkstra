@@ -2,6 +2,10 @@
 
 Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network :station: --> :train: --> :station: 
 
+# Related Work 
+
+You can find a python-based implementation for the same database here : https://github.com/IemProg/ParisPathFinder.
+
 ## Getting Started & Prerequisites 
 
 **Step #1: Install C/C++ compiler and related tools**
