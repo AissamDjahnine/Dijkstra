@@ -1,4 +1,4 @@
-# Metro-Problem- 
+# Dijkstra Metro-Problem- 
 
 Implementation of Dijkstra's algorithm to compute the shortest path on Paris subway network :station: --> :train: --> :station: 
 
