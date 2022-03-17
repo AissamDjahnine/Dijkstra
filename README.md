@@ -102,9 +102,3 @@ Note : the code is resistant to spelling errors :warning: ( Using the levenshtei
 ## Authors
 
 * **Djahnine Aissam**  - [Profile](https://github.com/AissamDjahnine)
-
-## Acknowledgments
-
-* Part of this job was supported by : Vincent Fraillon-maison  :thumbsup:
-
-
